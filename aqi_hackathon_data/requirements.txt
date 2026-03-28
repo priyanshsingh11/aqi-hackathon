@@ -1,0 +1,35 @@
+# AQI Hackathon — Python Dependencies
+# ======================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Then run inference with:
+#   python inference.py --input test.csv --output predictions.csv
+#
+# -----------------------------------------------------------------------
+# INSTRUCTIONS FOR STUDENTS
+# -----------------------------------------------------------------------
+# 1. Check your actual installed versions in modeling.ipynb Section 7.
+# 2. Replace the version numbers below with YOUR versions.
+# 3. Remove any package you did not use.
+# 4. Add any extra package you used that is not listed here.
+# -----------------------------------------------------------------------
+
+# Core data handling
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine learning — keep whichever you used, remove the rest
+scikit-learn>=1.1.0
+xgboost>=1.7.0
+# lightgbm>=3.3.0        # uncomment if you used LightGBM
+
+# Model persistence
+joblib>=1.2.0
+
+# Visualisation (needed to run the notebooks, not required for inference.py)
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Report generation (needed for report.docx creation cell in modeling.ipynb)
+python-docx>=0.8.11
