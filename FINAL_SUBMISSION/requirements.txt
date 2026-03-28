@@ -1,0 +1,30 @@
+# AQI Hackathon — Python Dependencies 🏆
+# ======================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Then run inference with:
+#   python inference.py --input test.csv --output predictions.csv
+
+# Core data handling & Numerical computation
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine learning: The "Ultimate Ensemble" stack
+scikit-learn>=1.1.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+catboost>=1.1.0
+
+# Model persistence
+joblib>=1.2.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Visualisation (Needed for notebooks)
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Report generation
+python-docx>=0.8.11
