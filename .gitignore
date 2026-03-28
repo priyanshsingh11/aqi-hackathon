@@ -1,0 +1,11 @@
+# AQI Hackathon Git Ignore
+*.csv
+*.zip
+*.pkl
+.ipynb_checkpoints/
+__MACOSX/
+aqi_hackathon_data/
+catboost_info/
+# best_model.pkl is over 200MB, so we ignore it from standard push
+best_model.pkl
+le_*.pkl
