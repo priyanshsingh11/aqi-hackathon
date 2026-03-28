@@ -6,6 +6,8 @@
 __MACOSX/
 aqi_hackathon_data/
 catboost_info/
-# best_model.pkl is over 200MB, so we ignore it from standard push
-best_model.pkl
-le_*.pkl
+
+# Allow specific submission files
+!test_output.csv
+!model_bundle.zip
+!report.docx
